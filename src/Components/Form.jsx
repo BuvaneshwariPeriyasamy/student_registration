@@ -14,7 +14,7 @@ function Form() {
 
     return (
         <div className="flex flex-col items-center p-5">
-            <h1 className="text-3xl text-center pb-10 font-bold">Student Registration</h1>
+            <h1 className="text-3xl text-center py-10 font-bold">Student Registration</h1>
             <div className="border border-black p-5 w-full max-w-lg md:w-2/3 lg:w-1/2 rounded-md">
                 <form onSubmit={handleSubmit(onSubmit)} className="text-lg p-5 flex flex-col">
                     <div className="flex flex-col sm:flex-row items-center gap-3 mb-3">
